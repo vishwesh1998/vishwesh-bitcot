@@ -39,7 +39,7 @@ export default function ContactsView(props) {
         <div className='col-lg-8 inputBar'>
             <input type='text' placeholder='You Can Search Here' className='form-control text-center' onChange={(e) => setSearchBar(e.target.value)} />
         </div>
-        {value == [] ? <></> : <>{value.filter(ob => searchBar.toLocaleLowerCase() === "" ? ob : ob.name.toLocaleLowerCase().includes(searchBar) || ob.mobile.includes(searchBar))
+        {value == [] ? <></> : <>{value.filter(ob => searchBar === "" ? ob : ob.name.includes(searchBar) || ob.mobile.includes(searchBar))
             .map((contact, Index) => <div className='col-lg-11 contactList' key={contact.id}>
                 <div className='row'>
                     <div className='col-lg-1'><p>{contact.id}</p></div>
