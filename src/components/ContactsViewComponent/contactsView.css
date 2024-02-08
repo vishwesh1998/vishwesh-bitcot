@@ -1,0 +1,157 @@
+.contactsView {
+    width: 28rem;
+    height: 34rem;
+    background: #000;
+    margin: 2rem;
+    border-radius: 15px;
+    margin-left: 14rem;
+}
+
+.contactBar {
+    background: lightblue;
+    color: white;
+    position: relative;
+    left: 18px;
+    border-radius: 0.5rem;
+    top: 10px;
+    text-decoration: none;
+}
+
+.icon {
+    position: relative;
+    top: -2px;
+}
+
+.inputBar {
+    margin: 1.5rem;
+    position: relative;
+    left: 3rem;
+}
+
+.contactList {
+    background: white;
+    color: black;
+    position: relative;
+    left: 18px;
+    border-radius: 0.5rem;
+    top: 10px;
+    margin: 5px;
+    height: 4rem;
+    /* font-size: 2rem; */
+}
+
+.contactList p {
+    margin-top: 17px;
+}
+
+.newIcon {
+    font-size: 35px;
+}
+
+.contactDetail {
+    font-size: 11px;
+    /* margin-bottom: 12px; */
+    /* padding-bottom: 25px; */
+}
+
+.editIcon {
+    font-size: 20px;
+    position: relative;
+    top: 13px;
+    /* margin-top: 20px; */
+    /* padding-top: 20px; */
+}
+
+@media (max-width : 468px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contactsView {
+        /* width: 485px; */
+        position: relative;
+        left: -200px;
+        width: 320px;
+        height: 100%;
+    }
+
+    .contactBar {
+        width: 290px;
+    }
+
+    .inputBar {
+        margin-left: -45px;
+        /* width: 50px; */
+    }
+
+    .contactList {
+        width: 280px;
+    }
+
+    .newIcon {
+        position: relative;
+        top: -47px;
+        left: 22px;
+        font-size: 20px;
+    }
+
+    .contactDetail {
+        position: relative;
+        top: -112px;
+        left: 48px;
+    }
+
+    .editIcon {
+        position: relative;
+        top: -160px;
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:469px) and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contactsView {
+        height: 100%;
+        position: relative;
+        left: -70px;
+    }
+
+    .contactBar {
+        width: 415px;
+    }
+
+    .inputBar {
+        margin-left: -48px;
+        /* width: 50px; */
+    }
+
+    .contactList {
+        width: 400px;
+    }
+
+    .newIcon {
+        position: relative;
+        top: -47px;
+        left: 22px;
+        font-size: 20px;
+    }
+
+    .contactDetail {
+        position: relative;
+        top: -112px;
+        left: 48px;
+    }
+
+    .editIcon {
+        position: relative;
+        top: -160px;
+        font-size: 15px;
+    }
+
+}

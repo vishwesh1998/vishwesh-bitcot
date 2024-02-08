@@ -1,0 +1,34 @@
+.viewContact {
+    background: whitesmoke;
+    width: 24rem;
+    height: 14rem;
+    border: 1px solid black;
+    margin-top: 5rem;
+    border-radius: 15px;
+}
+
+
+@media (max-width : 468px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .viewContact {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (min-width:469px) and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .viewContact {
+        width: 100%;
+        height: 100%;
+    }
+}
