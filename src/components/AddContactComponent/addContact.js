@@ -42,13 +42,13 @@ export default function AddContact() {
                 <input type='text' placeholder='name' className='form-control' required value={name} onChange={(e) => setName(e.target.value)} />
 
                 <label>Email:</label>
-                <input type='email' placeholder='name' className='form-control' required value={email} onChange={(e) => setEmail(e.target.value)} />
+                <input type='email' placeholder='email' className='form-control' required value={email} onChange={(e) => setEmail(e.target.value)} />
 
                 <label>Phone Number:</label>
-                <input type='number' placeholder='name' className='form-control' required value={mobile} onChange={(e) => setMobile(e.target.value)} />
+                <input type='number' placeholder='number' className='form-control' required value={mobile} onChange={(e) => setMobile(e.target.value)} />
 
                 <label>Address:</label>
-                <input type='text' placeholder='name' className='form-control' required value={address} onChange={(e) => setAddress(e.target.value)} />
+                <input type='text' placeholder='address' className='form-control' required value={address} onChange={(e) => setAddress(e.target.value)} />
                 {msg == "" ? <></> : <b>{msg}</b>}
                 <br />
                 <button className='btn btn-sm btn-success' onClick={addContactDetail}>Submit</button> &nbsp; <button className='btn btn-sm btn-dark' onClick={resetDetail}>Reset</button>
